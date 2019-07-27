@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'semantic-ui-react';
 
-export default function LocationCard({ location /* name, type, dimension, residents */ }) {
+export default function LocationCard({ location }) {
   return (
     <Card>
       <Card.Content>
